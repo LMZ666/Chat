@@ -1,0 +1,110 @@
+.chat-list{
+    margin: 0;
+    padding: 0.2em;
+    width: 30%;
+    height: 30em;
+    display: inline-block;
+    border: 1px solid gray;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.chat-list li,.title1{
+    background: RGB(217,237,247);
+    text-align: center;
+    list-style: none;
+    margin-bottom: 0;
+}
+.container{
+    width:80%;
+}
+#content{
+    position: relative;
+    padding: 1em 2em 0 2em;
+}
+.headimg{
+    float: left;
+    height: 17%;
+    width: 17%;
+    border-radius: 50%;
+}
+.alert{
+    overflow: hidden;
+    padding: 0.3em;
+    margin-bottom: 0;
+}
+.send{
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+    width: 65%;
+    float: right;
+}
+.badge{
+    margin-top: 1.1em;
+    background: red;
+}
+.message{
+    text-align: left;
+    float: left;
+    height: 100%;
+    width: 60%;
+}
+.message .user-nick{
+    font-weight: 800;
+    font-size: 1em;
+    margin-bottom: 0.3em;
+}
+.message .user-info{
+    font-weight: 100;
+    font-size: 1em;
+    padding-bottom: 0.3em;
+    margin-bottom: 0;
+    color: gray;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.chat-log{
+    border: 1px solid black;
+    position: absolute;
+    width: 65%;
+    top: 1em;
+    right: 1em;
+    bottom: 3.7em;
+}
+
+.dialog{
+    position: relative;
+    height: 2em;
+    border-radius: 0.5em;
+    background: RGB(38,131,254);
+}
+.dialog:after {
+	 content: '';
+     position: absolute;
+     top: 0.7em;
+     left: -0.9em;
+     border: solid RGB(238,238,238);
+     border-width: 0.5em;
+     border-right-color: transparent;
+     background: inherit;
+     background-size: auto;
+     background-clip: border-box;
+     background-origin: border-box;
+     background-position: 20px -30px;
+}
+.myword{
+    word-wrap: break-word;
+    vertical-align:middle;
+    display: table-cell;
+    padding: 0.5em;
+    background: RGB(38,131,254);
+}
+.other{
+    background: white;
+}
+.chat-item{
+    margin: 0.3em;
+    width: 30%;
+}
